@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+     <meta name="description" content="Explorando y aprendiendo HTML">
+     <title> QUE ANDAN DICIENDO UPSA</title>
+
+   </head>
+
+   <body>
+     <div class="contenedor">
+        <header>
+            <div class="logo">
+              <img src="img/logo.png" height="100" alt="logo empresa">
+            </div>
+            <nav class="navegación" role="nanavigation">
+                Menú Inicio
+                <!--Forma basica de enlazar otra vista-->
+                <a href="index1.html">
+                   <!--Podemos poner una imagen a la que le hacemos click-->
+                   <img src="img/html5.png" height="50" alt="logo html">
+
+                   <ul>
+                       <!--Enlazar a otra vista de nuestra pagina-->
+                     <li>  <a href="nosotros.html">Sobre Nosotros </a> </li>
+                      <!--Enlazar a un sitio fuera de nuestra página, target=blank para que lo abra en otra pestaña-->
+                     <li>  <a href="https://facebook.com/AndanDiciendoUPSA" target="_blank">Ir a Página de Facebook </a> </li>
+                     <!--Enlazar una seccion de la misma pagina-->
+                      <li>  <a href="#noticias">Ir a noticias </a> </li>
+                   </ul>
+                </a>
+            </nav>
+        </header>
+          <main class="contenido-principal">
+             <section>
+               <h2>Nuestros Cursos</h2>
+               <div>
+                 <h3>HTML5</h3>
+                 <h3>COMPLETO!!!</h3>
+                 <img src="img/html5.png" height="200" alt="logo html">
+               </div>
+               <div>
+                 <h3>CSS3</h3>
+                 <img src="img/css3.png" height="200" alt="logo css3">
+                 <br>
+                 <p>Ventajas de este curso</p>
+                 <!-- ul es una lista no ordenana-->
+                 <ul>
+                   <li>Lo puedes tomas en línea.</li>
+                     <ul>
+                       <li>En Udemy</li>
+                        <ol>
+                          <li>Ingles</li>
+                          <li>Español</li>
+                        </ol>
+                       <li>En Coursera</li>
+                       <li><a href="https://facebook.com/AndanDiciendoUPSA" target="_blank">Ir a Página de Facebook </a> </li>
+                     </ul>
+                   <li>Puedes avanzar a tu ritmo.</li>
+                   <li>Obtienes un certificado al finalizar.</li>
+                 </ul>
+                  <!--Abre el archivo en el navegador-->
+                 <!--<a href="Comandos .txt">Abrir archivo</a>-->
+                 <br>
+                  <!--Descarga el archivo-->
+                  <a href="file:///C:/Curso%20de%20Desarrollo%20web/Practicos%20-%20HTML/img/sample.pdf" download> Descargar archivo </a>
+               </div>
+               <div>
+                 <h3>JAVA SCRIPT</h3>
+                 <img src="img/js.jpg" height="200" alt="logo js">
+               </div>
+             </section>
+              <!--Esto es un comentario jejejeje-->
+             <section id="noticias">
+                   <h2>Últimas Noticias</h2>
+                     <article>
+                       <h3>Aprender a programar en el siglo XXI es muy importante</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </article>
+                      <article>
+                          <h3>Las mejores herramientas que todo programador debería tener</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       </article>
+                       <article>
+                           <h3>Las mejores computadoras para programar</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </article>
+             </section>
+          </main>
+          <aside>
+            <h2>Próximos Cursos</h2>
+            <div>
+              <h3>PHP</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+            </div>
+              <h3>C++</h3>
+              <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p
+            </div>
+
+             <!--Creando mi primer tabla-->
+             <table width="300">
+               <caption><h2>Información de los cursos</h2></caption>
+               <thead>
+                 Parte superior
+                 <tr>
+                   <th>Curso</th>
+                   <th>Precio</th>
+                 </tr>
+               </thead>
+               <tfoot>
+                 <tr>
+                   <td colspan="2" align="center"> No te lo puedes perder</td>
+                 </tr>
+               </tfoot>
+               <tbody colspan="2" align="center">
+                 <tr>
+                  <td rowspan="2">PHP</td>
+                  <td>BS.500</td>
+                 </tr>
+                 <tr>
+                  <td>BS.500</td>
+                 </tr>
+                 <tr>
+                  <td>JAVA</td>
+                  <td>BS.500</td>
+                 </tr>
+                 <tr>
+                  <td>C#</td>
+                  <td>BS.500</td>
+                 </tr>
+               </tbody>
+             </table>
+             <!--Fin de la tabla-->
+          </aside>
+           </div>
+     <footer>
+         <div class="nosotros">
+           <h3>Sobre nuestra escuela</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+         </div>
+
+         <div class="menu">
+           <nav class="navegación" role="navigation">
+              Menú aquí
+           </nav>
+            <div>
+              <p>Cursos de diseño web Derechos reservados &copy;</p>
+            </div>
+         </div>
+     </footer>
+   </body>
+</html>
