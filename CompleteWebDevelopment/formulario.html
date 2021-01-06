@@ -24,9 +24,39 @@
         <input type="radio" name="sexo" value="mujer"> Mujer <br>
         <input type="radio" name="sexo" value="otro"> Otro <br>
         <br>
-        <input type="submit" value="Registrar">
+
       </fieldset>
 
+      <br><br>
+      <fieldset>
+        <legend>Información sobre el curso</legend>
+        <label for="turno"> Turno:</label>
+        <select id="turno" class="turno" name="turno">
+          <option value="matutino">Matutino</option>
+            <option value="vespertino">Vespertino </option>
+            <option value="nocturno" selected>Nocturno </option>
+        </select>
+        <br><br>
+        <labe> Cursos Recomendado</label>
+        <input list="propuesta" name="encuesta">
+        <datalist id="propuesta">
+          <option value="Programación en JAVA">
+          <option value="Programación en C++">
+          <option value="Desarrollo web">
+          <option value="Seguridad Informática">
+        </datalist>
+        <br><br>
+        <labeL>Eige tus cursos: </label><br>
+          <input type="checkbox" value="PHP">PHP<br>
+          <input type="checkbox" value="MYSQL">MYSQL<br>
+          <input type="checkbox" value="JavaScript">JavaScript<br>
+          <input type="checkbox" value="HTML5">HTML5<br>
+
+
+      </fieldset>
+      <br><br>
+      <input type="submit" value="Registrar">
+      <button type="reset" disabled>Borrar</button>
     </form>
   </body>
 </html>
